@@ -1,0 +1,20 @@
+# Whitelist: everything in active-learning/ is ignored except the files listed here.
+# To publish a new file, add it below on purpose.
+*
+!*/
+!.gitignore
+!README.md
+!requirements.txt
+!container/perovskite_al.def
+!examples/config_paper_r1.json
+!src/active_learning_HEO.py
+!src/config.py
+!src/al_functions.py
+!src/al_util.py
+!src/al_viz.py
+!src/data_manager.py
+!src/ensemble_mlp.py
+!src/ANN_functions_new.py
+!src/generate_samples.py
+!src/slurm_phonon.py
+!src/plot_element_distributions.py

@@ -1,0 +1,31 @@
+# Whitelist: everything in metal/ is ignored except the files listed here.
+# Only the modules and data used by the active-learning runs are published.
+*
+!*/
+!.gitignore
+!README.md
+!metal/__init__.py
+!metal/utils.py
+!metal/applications/__init__.py
+!metal/applications/space.py
+!metal/applications/crystals/__init__.py
+!metal/applications/crystals/base_optimizer.py
+!metal/applications/crystals/chgnet_optimizer.py
+!metal/applications/crystals/cluster_expansion.py
+!metal/applications/crystals/crystal_space.py
+!metal/applications/crystals/stability_factors.py
+!metal/applications/crystals/thermodynamics.py
+!metal/applications/crystals/tools.py
+!metal/applications/crystals/torch_tools.py
+!metal/applications/crystals/data/CO2_ref.txt
+!metal/applications/crystals/data/CO_ref.txt
+!metal/applications/crystals/data/H2O_ref.txt
+!metal/applications/crystals/data/H2_ref.txt
+!metal/applications/crystals/data/O2_ref.txt
+!metal/applications/crystals/data/O2.json
+!metal/applications/crystals/data/electronegativities.csv
+!metal/applications/crystals/data/Shannon_radii_dict.json
+!metal/applications/crystals/data/save_clf.p
+!metal/applications/crystals/data/TableS1.csv
+!metal/applications/crystals/data/abundances.csv
+!metal/applications/crystals/data/symbolprice.csv

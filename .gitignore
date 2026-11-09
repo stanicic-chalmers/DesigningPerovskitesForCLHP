@@ -1,0 +1,30 @@
+# Never published, anywhere in this repository
+# job scripts (cluster paths, accounts, API keys)
+*.sh
+*.sbatch
+*.slurm
+# credentials
+.env
+*.env
+.pmgrc.yaml
+*.pem
+*.key
+.ssh/
+# data, models, containers, run outputs
+*.db
+*.pt
+*.pth
+*.ckpt
+*.sif
+*.npz
+*.h5
+logs/
+*.log
+*.out
+*.err
+# Python / editor clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*~

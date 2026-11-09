@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "Designing Perovskites For Chemical Looping Hydrogen Production"
+abstract: >-
+  Code for the active-learning design of high-entropy perovskite oxygen carriers for chemical-looping
+  hydrogen production (CLHP): the active-learning loop, the crystal-space, SQS, relaxation and phonon
+  scripts, the start set (cycle 0) of the reported runs, and the scripts and data behind the manuscript figures.
+authors:
+  # Manuscript authors (order as in the paper). Affiliations:
+  #   1 Wallenberg Initiative Materials Science for Sustainability, Department of Environmental and Energy Sciences
+  #   2 Department of Environmental and Energy Sciences
+  #   3 Department of Physics and Astronomy
+  # (all Chalmers University of Technology, Chalmersplatsen 4, SE-41296 Gothenburg, Sweden)
+  - family-names: "Staničić"
+    given-names: "Ivana"
+    email: "stanicic@chalmers.se"
+    affiliation: "Wallenberg Initiative Materials Science for Sustainability, Department of Environmental and Energy Sciences, Chalmers University of Technology, Gothenburg, Sweden"   # 1, 2
+    orcid: "https://orcid.org/0000-0002-6927-4822"   
+  - family-names: "Juhlin Onbeck"
+    given-names: "Alfred"
+    affiliation: "Department of Environmental and Energy Sciences, Chalmers University of Technology, Gothenburg, Sweden"   # 2
+  - family-names: "Hellman"
+    given-names: "Anders"
+    affiliation: "Department of Physics and Astronomy, Chalmers University of Technology, Gothenburg, Sweden"   # 3
+  - family-names: "Mattisson"
+    given-names: "Tobias"
+    affiliation: "Department of Environmental and Energy Sciences, Chalmers University of Technology, Gothenburg, Sweden"   # 2
+  - family-names: "Rydén"
+    given-names: "Magnus"
+    affiliation: "Wallenberg Initiative Materials Science for Sustainability, Department of Environmental and Energy Sciences, Chalmers University of Technology, Gothenburg, Sweden"   # 1, 2
+  # Developers of the metal package (metal/)
+  - family-names: "Brorsson"
+    given-names: "Joakim"
+    affiliation: "Department of Physics and Astronomy, Chalmers University of Technology, Gothenburg, Sweden"  
+  - family-names: "Klein Moberg"
+    given-names: "Henrik"
+    affiliation: "Department of Physics and Astronomy, Chalmers University of Technology, Gothenburg, Sweden" 
+  - family-names: "Hildingsson"
+    given-names: "Joel"
+    affiliation: "Department of Physics and Astronomy, Chalmers University of Technology, Gothenburg, Sweden" 
+  - family-names: "Gastaldi"
+    given-names: "Jonatan"
+    affiliation: "Department of Environmental and Energy Sciences, Chalmers University of Technology, Gothenburg, Sweden"
+
+repository-code: "https://github.com/stanicic-chalmers/DesigningPerovskitesForCLHP"
+license: MIT
+version: "1.0.0"            # TODO: match the release tag
+date-released: "2026-12-01" # TODO: release date (YYYY-MM-DD)
+keywords:
+  - chemical looping
+  - hydrogen production
+  - oxygen carriers
+  - high-entropy perovskites
+  - active learning
+  - machine learning
+  - phonons
+
+# preferred-citation:
+#   type: article
+#   title: "..."
+#   authors:
+#     - family-names: "Staničić"
+#       given-names: "Ivana"
+#   journal: "..."
+#   year: 2027
+#   doi: "10.xxxx/xxxxx"

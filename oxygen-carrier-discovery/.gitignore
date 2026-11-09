@@ -1,0 +1,35 @@
+# Whitelist: everything in oxygen-carrier-discovery/ is ignored except the files listed here.
+# Run folders and databases are not published here; the manuscript figures are (heoc/manuscript_figures).
+*
+!*/
+!.gitignore
+!README.md
+!heoc/pyscripts/build_prototype_database.py
+!heoc/pyscripts/create_crystal_space.py
+!heoc/pyscripts/build_training_database.py
+!heoc/pyscripts/build_sample_database.py
+!heoc/pyscripts/build_sqs_databases.py
+!heoc/pyscripts/perform_threaded_relaxations.py
+!heoc/pyscripts/perform_phonon_calculations.py
+!heoc/pyscripts/update_training_database.py
+!heoc/pyscripts/pyscripts_utils.py
+!heoc/pyscripts/setup_run.py
+# published start set (cycle 0) of the paper runs
+!heoc/clhp/training.db.gz
+!heoc/clhp/crystal_space.spa
+!heoc/clhp/SHA256SUMS
+# final training databases of the seven paper runs r1-r7 (cycles 0-50; usernames replaced by 'clhp')
+!heoc/database_r1-r7/
+!heoc/database_r1-r7/r*_training.db.gz
+!heoc/database_r1-r7/SHA256SUMS
+# manuscript figures: scripts, run script, data tables, finished figures, result tables and UMAP coordinates
+# (not the unpacked databases in data/db/, and no script printouts: they contain local paths)
+!heoc/manuscript_figures/README.md
+!heoc/manuscript_figures/make_figures.sh
+!heoc/manuscript_figures/scripts/**/*.py
+!heoc/manuscript_figures/output/**/*.pdf
+!heoc/manuscript_figures/output/**/*.png
+!heoc/manuscript_figures/output/**/*.csv
+!heoc/manuscript_figures/output/**/*.pkl
+!heoc/manuscript_figures/data/*.csv
+!heoc/manuscript_figures/data/run_config/*.json
