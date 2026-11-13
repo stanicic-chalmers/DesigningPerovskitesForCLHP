@@ -1,9 +1,8 @@
 # DesigningPerovskitesForCLHP
 
-Code for the active-learning design of high-entropy perovskite oxygen carriers for chemical-looping hydrogen
-production (CLHP).
+Code for the active-learning design of high-entropy perovskite oxygen carriers for chemical-looping hydrogen production (CLHP).
 
-> Manuscript in preparation. Citation details will be added following publication.
+> Citation details will be added following publication.
 
 ## Repository layout
 
