@@ -1,8 +1,8 @@
-# metal (subset used by the active-learning runs)
+# METAL 
 
 Python package for the atomistic part of the active-learning loop: the composition space and SQS structures,
 structure relaxation with the CHGNet interatomic potential, vibrational free energies, oxygen chemical
-potentials of the reactor gases, and the perovskite stability descriptors (charge neutrality, tolerance factors).
+potentials of the reactors, and the perovskite stability descriptors (charge neutrality, tolerance factors).
 
 ## Origin and modifications
 
