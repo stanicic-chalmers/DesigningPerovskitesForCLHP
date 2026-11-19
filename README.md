@@ -15,6 +15,10 @@ DesigningPerovskitesForCLHP/
     └── clhp/          start set of the paper runs (training.db.gz, crystal_space.spa)
 ```
 
+The `metal/` package is a modified subset of **METAL** (Material Exploration Through Active Learning;
+Brorsson *et al.*, [arXiv:2601.03933](https://arxiv.org/abs/2601.03933)). If you use it, please cite that work as
+well; see [`metal/README.md`](metal/README.md) for what was changed for this study.
+
 The three parts import each other through relative paths, so keep this layout. Start with
 [`oxygen-carrier-discovery/README.md`](oxygen-carrier-discovery/README.md) (setting up a run) and
 [`active-learning/README.md`](active-learning/README.md) (running the AL loop).

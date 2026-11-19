@@ -4,6 +4,20 @@ Python package for the atomistic part of the active-learning loop: the compositi
 structure relaxation with the CHGNet interatomic potential, vibrational free energies, oxygen chemical
 potentials of the reactor gases, and the perovskite stability descriptors (charge neutrality, tolerance factors).
 
+## Origin and modifications
+
+This package is derived from **METAL** (Material Exploration Through Active Learning):
+
+> J. Brorsson, H. Klein Moberg, J. Hildingsson, J. Gastaldi, T. Mattisson, A. Hellman,
+> *Material exploration through active learning -- METAL*, arXiv:2601.03933 (2026).
+> https://arxiv.org/abs/2601.03933
+
+The version here is a snapshot used for the CLHP runs and differs from the published METAL code. 
+For example, it adds the calculation of the oxygen chemical potential in the fuel reactor (from the CO2/CO ratio,
+`get_mu_oxygen_fr`) and the steam reactor (from the H2O/H2 ratio, `get_mu_oxygen_sr`) in `tools.py`.
+
+## Scope
+
 Only the modules and data files needed by `active-learning/` and the property-evaluation scripts are included.
 The folder is put on the Python path by the active-learning code, so the package is imported as
 `metal.applications.crystals...` from `<root>/metal`.

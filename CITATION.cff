@@ -50,6 +50,30 @@ keywords:
   - machine learning
   - phonons
 
+references:
+  - type: article
+    title: "Material exploration through active learning -- METAL"
+    authors:
+      - family-names: "Brorsson"
+        given-names: "Joakim"
+      - family-names: "Klein Moberg"
+        given-names: "Henrik"
+      - family-names: "Hildingsson"
+        given-names: "Joel"
+      - family-names: "Gastaldi"
+        given-names: "Jonatan"
+      - family-names: "Mattisson"
+        given-names: "Tobias"
+      - family-names: "Hellman"
+        given-names: "Anders"
+    year: 2026
+    repository: "arXiv"
+    identifiers:
+      - type: other
+        value: "arXiv:2601.03933"
+    url: "https://arxiv.org/abs/2601.03933"
+    notes: "The metal/ package in this repository is a modified subset of METAL."
+
 preferred-citation:
   type: article
   title: "Designing perovskites for chemical looping hydrogen production"
