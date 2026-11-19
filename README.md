@@ -15,6 +15,9 @@ DesigningPerovskitesForCLHP/
     └── clhp/          start set of the paper runs (training.db.gz, crystal_space.spa)
 ```
 
+**Data.** The SQS structures and phonon data of the start set (cycle 0) are on Zenodo:
+[doi:10.5281/zenodo.24197403](https://doi.org/10.5281/zenodo.24197403).
+
 The `metal/` package is a modified subset of **METAL** (Material Exploration Through Active Learning;
 Brorsson *et al.*, [arXiv:2601.03933](https://arxiv.org/abs/2601.03933)). If you use it, please cite that work as
 well; see [`metal/README.md`](metal/README.md) for what was changed for this study.

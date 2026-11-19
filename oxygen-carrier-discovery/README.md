@@ -33,7 +33,8 @@ The scripts expect `metal/` at the repository root (`<root>/metal`), as in this 
 | `crystal_space.spa` | composition space (A and B elements on the cubic, orthorhombic and brownmillerite prototypes) |
 | `SHA256SUMS` | checksums (`sha256sum -c SHA256SUMS`) |
 
-The relaxed SQS structures and phonon data behind these labels (`cycle0/`, 5.7 GB) are not included.
+The relaxed SQS structures and phonon data behind these labels (`cycle0/`, 5.7 GB) are not included here; they are
+deposited on Zenodo: [doi:10.5281/zenodo.24197403](https://doi.org/10.5281/zenodo.24197403) (`cycle0_sqs.tar.gz`, CC BY 4.0).
 
 ## Setting up a run
 

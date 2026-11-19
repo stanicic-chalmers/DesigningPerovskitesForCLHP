@@ -40,7 +40,7 @@ authors:
 repository-code: "https://github.com/stanicic-chalmers/DesigningPerovskitesForCLHP"
 license: MIT
 version: "1.0.0"            
-date-released: "2026-12-01" 
+date-released: "2026-11-19" 
 keywords:
   - chemical looping
   - hydrogen production
