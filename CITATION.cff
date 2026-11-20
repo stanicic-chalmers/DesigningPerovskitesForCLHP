@@ -39,7 +39,8 @@ authors:
 
 repository-code: "https://github.com/stanicic-chalmers/DesigningPerovskitesForCLHP"
 license: MIT
-version: "1.0.0"            
+doi: "10.5281/zenodo.24393270"
+version: "1.0.0"
 date-released: "2026-11-19" 
 keywords:
   - chemical looping

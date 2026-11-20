@@ -1,8 +1,13 @@
 # DesigningPerovskitesForCLHP
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24393270.svg)](https://doi.org/10.5281/zenodo.24393270)
+
 Code for the active-learning design of high-entropy perovskite oxygen carriers for chemical-looping hydrogen production (CLHP).
 
-> Citation details will be added following publication.
+**Citing.** The code is archived on Zenodo: [doi:10.5281/zenodo.24393270](https://doi.org/10.5281/zenodo.24393270)
+(all versions; resolves to the latest release). See [`CITATION.cff`](CITATION.cff) for citation metadata.
+
+> Citation details for the manuscript will be added following publication.
 
 ## Repository layout
 
